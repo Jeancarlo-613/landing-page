@@ -10,13 +10,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-a {
-    color: #e5e7eb;
+
+.one-two {
+    background-color: #1f2937;
 }
 
 .logo {
     margin-left: 40px;
     width: 100px;    
+}
+
+
+a, 
+.footer, 
+.block-one {
+    color: #e5e7eb;
 }
 
 ul {
@@ -25,6 +33,7 @@ ul {
     display: flex;
     gap: 18px;
     font-size: 18px;
+    margin-right: 40px;
 }
 
 .header,
@@ -43,7 +52,6 @@ ul {
 .footer {
     margin-top: auto;
     justify-content: center;
-    color: #e5e7eb;
     padding: 16px;
 }
 
@@ -54,16 +62,73 @@ h1 {
 }
 
 .block-one {
-    color: #e5e7eb;
-    margin-left: 19px;
+    margin: 40px;
+    margin-bottom: 80px;
 }
 
 .body-one {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 300px;
 }
 
-.one-two {
-    background-color: #1f2937;
+.text {
+    flex-wrap: wrap;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.register {
+    margin-top: 15px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 6px;
+    width: 120px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: gray;
+    width: 400px;
+    height: 150px;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: 35px;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 6px;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.pair {
+    justify-content: space-around;
+}
+
+.card {
+    margin-left: 30px;
 }
